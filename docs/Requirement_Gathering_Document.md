@@ -2,198 +2,174 @@
 
 ## Project Title
 
-Automated Podcast Transcription and Topic Segmentation Using AI
+**Automated Podcast Transcription and Topic Segmentation Using AI**
 
 ## Introduction
 
-Podcasts are a popular way to share information and knowledge, but they are often very long. It can be difficult and time-consuming for users to find specific topics in a podcast. This project helps by automatically converting podcast audio into text, identifying different topics, generating summaries and keywords, and making it easier for users to find the information they need quickly.
+Podcasts have become one of the most popular ways to share information, education, news, and entertainment. However, podcast episodes are often lengthy, making it difficult for listeners to locate specific topics or discussions. Users usually have to listen to the entire audio recording to find relevant information, which can be time-consuming and inefficient.
+
+The proposed system aims to solve this problem by automatically converting podcast audio into text, identifying topic changes within the transcript, extracting keywords, generating summaries, and providing a searchable interface for easy navigation through podcast content.
 
 ## Problem Statement
 
-People often find it difficult to locate specific information in long podcast episodes. Most podcast platforms only allow users to listen to the audio and do not provide easy ways to search or navigate topics. This project solves the problem by converting podcast audio into text, dividing it into topics, generating summaries, and making the content easy to search and access.
+Podcast listeners often struggle to find specific information within long audio recordings. Existing podcast platforms mainly provide audio playback without efficient topic-wise navigation or transcript search functionality. As a result, users spend significant time searching for relevant discussions.
 
-## Objectives
-
-### Main Objective
-
-To develop an AI-powered system that automatically transcribes podcast audio recordings and segments them into meaningful topics for efficient navigation and content discovery.
-
-### Specific Objectives
-
-• To convert podcast audio into text using speech recognition technology.
-
-• To preprocess audio files by reducing noise and improving audio quality.
-
-• To identify topic boundaries within the generated transcript using NLP techniques.
-
-• To extract important keywords from each topic segment.
-
-• To generate concise summaries for identified topics.
-
-• To provide a search mechanism for locating specific information within transcripts.
-
-• To develop an interactive dashboard for displaying transcripts, topics, keywords, and summaries.
-
-• To improve accessibility and user experience by making podcast content searchable and easier to understand.
+The Automated Podcast Transcription and Topic Segmentation System addresses this issue by automatically transcribing podcast audio, detecting topic boundaries, extracting keywords, generating concise summaries, and organizing content into searchable segments.
 
 ## Stakeholders
 
-### Users
+### Primary Stakeholders
 
-Podcast listeners, students, researchers, podcast creators, and content consumers who use the system to access podcast information easily.
+* Podcast Listeners
+* Students and Researchers
 
-### System Management Team
+### Secondary Stakeholders
 
-Administrators and developers responsible for maintaining, managing, and improving the system.
+* System Administrators
+* Project Development Team
 
 ## Functional Requirements
 
-### User Registration
+### FR1: User Registration
 
 The system shall allow users to create an account.
 
-### User Login
+### FR2: User Login
 
-The system shall allow registered users to securely access the system.
+The system shall allow registered users to securely access the application.
 
-### Audio Upload
+### FR3: Audio Upload
 
 The system shall allow users to upload podcast audio files in supported formats such as MP3 and WAV.
 
-### Audio Preprocessing
+### FR4: Audio Preprocessing
 
-The system shall clean uploaded audio files by reducing noise and normalizing audio levels.
+The system shall improve audio quality by reducing noise and normalizing audio levels.
 
-### Speech-to-Text Conversion
+### FR5: Speech-to-Text Conversion
 
-The system shall convert audio recordings into text using an Automatic Speech Recognition (ASR) model.
+The system shall convert podcast audio into text using an Automatic Speech Recognition (ASR) model.
 
-### Topic Segmentation
+### FR6: Topic Segmentation
 
 The system shall identify topic boundaries and divide transcripts into meaningful sections.
 
-### Keyword Extraction
+### FR7: Keyword Extraction
 
-The system shall extract significant keywords from each topic segment.
+The system shall extract important keywords from each topic segment.
 
-### Summary Generation
+### FR8: Summary Generation
 
-The system shall generate concise summaries for each identified topic.
+The system shall generate concise summaries for identified topics.
 
-### Search Functionality
+### FR9: Search Functionality
 
-The system shall allow users to search transcripts using keywords.
+The system shall allow users to search transcripts using keywords and phrases.
 
-### Dashboard
+### FR10: Dashboard
 
-The system shall display transcripts, topics, summaries, keywords, and search results through an interactive dashboard.
+The system shall display transcripts, topic segments, keywords, summaries, and search results through an interactive dashboard.
 
-### Transcript Download
+### FR11: Transcript Download
 
-The system shall allow users to download generated transcripts for future use.
+The system shall allow users to download generated transcripts for future reference.
+
+## Non-Functional Requirements
+
+### Performance
+
+The system should process podcast audio efficiently and provide results within a reasonable time.
+
+### Reliability
+
+The system should generate accurate transcripts and topic segmentation results.
+
+### Security
+
+User credentials and uploaded files should be stored securely.
+
+### Scalability
+
+The system should support increasing numbers of users and podcast uploads.
+
+### Usability
+
+The user interface should be simple, intuitive, and easy to navigate.
 
 ## Input Requirements
 
-• User Credentials (Username and Password)
-
-• Podcast Audio File (MP3/WAV Format)
-
-• Search Query (Keyword Entered by User)
+* User Name
+* Email Address
+* Password
+* Podcast Audio File (MP3/WAV)
+* Search Keywords
 
 ## Output Requirements
 
-• Transcript generated from podcast audio
-
-• Topic-wise segmented content
-
-• Extracted keywords
-
-• Topic summaries
-
-• Search results based on user queries
+* Generated Transcript
+* Topic Segments
+* Extracted Keywords
+* Topic Summaries
+* Search Results
+* Downloadable Transcript
 
 ## Software Requirements
 
 ### Frontend
 
-• ReactJS – Used to build the user interface.
-
-• HTML – Used to create webpage structure.
-
-• CSS – Used for styling webpages.
-
-• Bootstrap – Used for responsive design.
+* ReactJS
+* HTML
+* CSS
+* Bootstrap
 
 ### Backend
 
-• Spring Boot – Used to develop APIs and handle business logic.
-
-• Java – Used for backend processing.
+* Spring Boot
+* Java
 
 ### Database
 
-• MySQL – Used to store user data, podcast details, transcripts, topics, keywords, and summaries.
+* PostgreSQL
 
-### AI & NLP
+### AI and NLP
 
-• Python – Used for AI and NLP operations.
-
-• Whisper AI – Used for speech-to-text conversion.
-
-• NLTK / spaCy – Used for topic detection, keyword extraction, and summary generation.
+* Python
+* Whisper AI
+* NLTK
+* spaCy
 
 ### Development Tools
 
-• VS Code
-
-• IntelliJ IDEA
-
-• GitHub
-
-• Postman
+* Visual Studio Code
+* IntelliJ IDEA
+* GitHub
+* Postman
 
 ## Hardware Requirements
 
-• Intel Core i5 Processor or Above
-
-• 16 GB RAM
-
-• SSD Storage
-
-## Project Scope
-
-• Audio Upload
-
-• Audio Preprocessing
-
-• Speech-to-Text Conversion
-
-• Topic Segmentation
-
-• Keyword Extraction
-
-• Summary Generation
-
-• Search Functionality
-
-• Dashboard Visualization
+* Intel Core i5 Processor or Above
+* 8 GB RAM or Above
+* SSD Storage
+* Stable Internet Connection
 
 ## Expected Benefits
 
-• Reduces the time required to explore podcast content.
+* Reduces the time required to explore podcast content.
+* Enables topic-based navigation.
+* Improves accessibility of podcast information.
+* Assists students and researchers in locating relevant discussions.
+* Enhances user experience through AI-powered content analysis.
 
-• Enables topic-based navigation.
+## Scope of the Project
 
-• Improves accessibility of podcast information.
-
-• Assists students and researchers in finding relevant discussions.
-
-• Enhances user experience through AI-powered content analysis.
+The project focuses on podcast audio processing, automatic transcription, topic segmentation, keyword extraction, summary generation, transcript search, and dashboard visualization. The system aims to improve podcast accessibility and make audio content easier to explore and understand.
 
 ## Authored By
 
-DEVADHARSHINI S
+**DEVADHARSHINI S**
 
-Register Number: 922524148016
+**Register Number:** 922524148016
 
-V.S.B. Engineering College, Karur
+**Department:** Computer Science and Engineering
+
+**Institution:** V.S.B. Engineering College, Karur
