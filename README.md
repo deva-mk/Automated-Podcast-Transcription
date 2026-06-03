@@ -67,15 +67,7 @@ This module displays transcripts, summaries, keywords, and topics through an int
 
 This module stores and manages all project-related information.
 
-## 5. Use Case Diagram Preparation
-
-Insert the Use Case Diagram image here.
-
-```text
-docs/UseCaseDiagram.png
-```
-
-## 6. Database Requirement Analysis
+## 5. Database Requirement Analysis
 
 The system must support the following operations:
 
@@ -148,7 +140,7 @@ Relationship:
 * Transcript → Topic = One-to-Many (1:M)
 * Topic → Keyword = One-to-Many (1:M)
 
-## 7. ER Diagram Design
+## 6. ER Diagram Design
 
 Insert the ER Diagram image here.
 
