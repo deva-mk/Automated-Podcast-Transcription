@@ -74,6 +74,6 @@ The primary goal of this project is to make podcast content easier to access, se
 
 **Register Number:** 922524148016
 
-**Department:** Computer Science and Engineering
+**Department:** Computer Science and Engineering(AI&ML)
 
 **Institution:** V.S.B. Engineering College, Karur
