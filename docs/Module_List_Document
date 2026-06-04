@@ -1,0 +1,290 @@
+# MODULE LIST DOCUMENT
+
+## Project Title
+
+**Automated Podcast Transcription and Topic Segmentation Using AI**
+
+## Introduction
+
+The Automated Podcast Transcription and Topic Segmentation System is designed to convert podcast audio into text and organize the content into meaningful topics. The system uses Artificial Intelligence (AI), Speech Recognition, and Natural Language Processing (NLP) techniques to improve podcast accessibility and navigation. To achieve this functionality, the project is divided into several modules, each responsible for a specific task.
+
+## Module 1: User Management Module
+
+### Description
+
+This module manages user registration, login, and authentication.
+
+### Functions
+
+* User Registration
+* User Login
+* User Authentication
+* User Profile Management
+
+### Inputs
+
+* Username
+* Email Address
+* Password
+
+### Outputs
+
+* User Account
+* Login Access
+
+---
+
+## Module 2: Audio Upload Module
+
+### Description
+
+This module allows users to upload podcast audio files for processing.
+
+### Functions
+
+* Audio File Upload
+* File Validation
+* Audio Storage
+
+### Inputs
+
+* Podcast Audio File (MP3/WAV)
+
+### Outputs
+
+* Uploaded Audio File
+
+---
+
+## Module 3: Audio Preprocessing Module
+
+### Description
+
+This module improves audio quality before transcription.
+
+### Functions
+
+* Noise Reduction
+* Audio Normalization
+* Audio Enhancement
+
+### Inputs
+
+* Uploaded Audio File
+
+### Outputs
+
+* Processed Audio File
+
+---
+
+## Module 4: Speech-to-Text Module
+
+### Description
+
+This module converts podcast audio into text using Whisper AI.
+
+### Functions
+
+* Speech Recognition
+* Transcript Generation
+
+### Inputs
+
+* Processed Audio File
+
+### Outputs
+
+* Generated Transcript
+
+---
+
+## Module 5: Topic Segmentation Module
+
+### Description
+
+This module identifies topic boundaries within the transcript and divides the content into meaningful sections.
+
+### Functions
+
+* Topic Detection
+* Topic Classification
+* Topic Boundary Identification
+
+### Inputs
+
+* Generated Transcript
+
+### Outputs
+
+* Topic Segments
+
+---
+
+## Module 6: Keyword Extraction Module
+
+### Description
+
+This module extracts important keywords from each identified topic.
+
+### Functions
+
+* Keyword Identification
+* Important Term Extraction
+
+### Inputs
+
+* Topic Segments
+
+### Outputs
+
+* Extracted Keywords
+
+---
+
+## Module 7: Summary Generation Module
+
+### Description
+
+This module generates concise summaries for each topic segment.
+
+### Functions
+
+* Topic Summarization
+* Content Compression
+
+### Inputs
+
+* Topic Segments
+
+### Outputs
+
+* Topic Summaries
+
+---
+
+## Module 8: Search and Navigation Module
+
+### Description
+
+This module enables users to search transcript content and navigate directly to relevant topics.
+
+### Functions
+
+* Keyword Search
+* Topic Navigation
+* Information Retrieval
+
+### Inputs
+
+* Search Query
+
+### Outputs
+
+* Search Results
+
+---
+
+## Module 9: Dashboard and Visualization Module
+
+### Description
+
+This module provides an interactive interface for viewing transcripts, topics, summaries, and keywords.
+
+### Functions
+
+* Transcript Display
+* Topic Visualization
+* Summary Display
+* Keyword Display
+
+### Inputs
+
+* Processed Podcast Data
+
+### Outputs
+
+* Dashboard Interface
+
+---
+
+## Module 10: Database Management Module
+
+### Description
+
+This module stores and manages all project-related information.
+
+### Functions
+
+* User Data Storage
+* Podcast Data Storage
+* Transcript Storage
+* Topic Storage
+* Keyword Storage
+* Summary Storage
+
+### Inputs
+
+* System Data
+
+### Outputs
+
+* Organized Database Records
+
+---
+
+## Module Interaction Flow
+
+User Registration/Login
+
+↓
+
+Audio Upload
+
+↓
+
+Audio Preprocessing
+
+↓
+
+Speech-to-Text Conversion
+
+↓
+
+Topic Segmentation
+
+↓
+
+Keyword Extraction
+
+↓
+
+Summary Generation
+
+↓
+
+Search and Navigation
+
+↓
+
+Dashboard Visualization
+
+↓
+
+Database Storage and Retrieval
+
+---
+
+## Conclusion
+
+The project is divided into ten major modules to ensure proper organization, maintainability, and scalability. Each module performs a specific function and contributes to the overall goal of converting podcast audio into searchable, topic-based content.
+
+## Authored By
+
+**DEVADHARSHINI S**
+
+**Register Number:** 922524148016
+
+**Department:** Computer Science and Engineering(AI&ML)
+
+**Institution:** V.S.B. Engineering College, Karur
