@@ -8,7 +8,7 @@
 
 The Automated Podcast Transcription and Topic Segmentation System is designed to convert podcast audio into text and organize the content into meaningful topics. The system uses Artificial Intelligence (AI), Speech Recognition, and Natural Language Processing (NLP) techniques to improve podcast accessibility and navigation. To achieve this functionality, the project is divided into several modules, each responsible for a specific task.
 
-## Module 1: User Management Module
+## Module 1: User Management Module 
 
 ### Description
 
