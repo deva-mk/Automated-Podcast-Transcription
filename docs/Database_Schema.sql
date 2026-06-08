@@ -2,7 +2,7 @@ Database Schema Creation
 
 This schema is designed to store and manage user information, podcast details, generated transcripts, topic segments, keywords, and summaries. It establishes relationships between entities using primary keys and foreign keys to support efficient storage and retrieval of podcast content.
 
--- =====================================================
+-- ===================================================== 
 -- DATABASE SCHEMA
 -- Project: Automated Podcast Transcription and Topic Segmentation Using AI
 -- Database: PostgreSQL
