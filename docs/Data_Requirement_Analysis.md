@@ -4,7 +4,7 @@
 
 **Automated Podcast Transcription and Topic Segmentation Using AI**
 
-## Introduction
+## Introduction  
 
 Data Requirement Analysis is the process of identifying and defining the data needed for the successful implementation of the Automated Podcast Transcription and Topic Segmentation System. The system requires structured storage of user information, podcast details, generated transcripts, topic segments, keywords, and summaries to support efficient processing and retrieval of podcast content.
 
